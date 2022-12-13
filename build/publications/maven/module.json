@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.avati.thirdparty",
+    "module": "sifen-lib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sifen-lib-1.0.0.jar",
+          "url": "sifen-lib-1.0.0.jar",
+          "size": 291026,
+          "sha512": "af2004467037af91f263468582d8407382c8d95b6aac038e371f64da10d77bdc776c0c9e9fae33a63df928f23c16b7bbabe20b9d19dbc954ab6d0bc288e97078",
+          "sha256": "4b310dae498dbe7c1e9cb04cf0bdf27fd0f71b3908c5e57780a1ba248e2fb3a9",
+          "sha1": "ea82e078563db64b8903612bae034c5311a578e1",
+          "md5": "f6c172770c3aec06ce293588d48fce2a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sifen-lib-1.0.0.jar",
+          "url": "sifen-lib-1.0.0.jar",
+          "size": 291026,
+          "sha512": "af2004467037af91f263468582d8407382c8d95b6aac038e371f64da10d77bdc776c0c9e9fae33a63df928f23c16b7bbabe20b9d19dbc954ab6d0bc288e97078",
+          "sha256": "4b310dae498dbe7c1e9cb04cf0bdf27fd0f71b3908c5e57780a1ba248e2fb3a9",
+          "sha1": "ea82e078563db64b8903612bae034c5311a578e1",
+          "md5": "f6c172770c3aec06ce293588d48fce2a"
+        }
+      ]
+    }
+  ]
+}
