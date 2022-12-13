@@ -19,11 +19,9 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
         "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "jvm"
+        "org.gradle.usage": "java-api"
       },
       "files": [
         {
@@ -42,21 +40,10 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
         "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "jvm"
+        "org.gradle.usage": "java-runtime"
       },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
-          "version": {
-            "requires": "1.6.0"
-          }
-        }
-      ],
       "files": [
         {
           "name": "sifen-lib-1.0.0.jar",
